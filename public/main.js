@@ -1,13 +1,10 @@
-document.getElementsByClassName('menu-toggle')[0].addEventListener('click',()=>{
-    console.log("wtf");
+const $=(q)=> document.querySelector(q);
+setTimeout(()=>{
+
+},1500)
+//ocument.querySelector('das').classList.t
+function done(){
+    document.querySelector('.bg-wrapper').classList.add('grow')
+
+}
     
-    var m=document.getElementsByTagName('nav')[0];
-    if((m.style.right=="0px")){
-        m.style.display="none";
-        m.style.right="-500px";
-    }else{
-        m.style.right="0px";
-        m.style.display="block";
-    }
-    
-});
